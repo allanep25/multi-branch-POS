@@ -1,0 +1,236 @@
+{
+  "stores": [
+    {
+      "id": "store-main",
+      "name": "Downtown Cafe",
+      "code": "DTC",
+      "location": "Main Street"
+    },
+    {
+      "id": "store-mall",
+      "name": "Mall Kiosk",
+      "code": "MLK",
+      "location": "City Mall"
+    },
+    {
+      "id": "store-campus",
+      "name": "Campus Brew",
+      "code": "CMP",
+      "location": "University Walk"
+    }
+  ],
+  "products": [
+    {
+      "id": "fce662ca-800c-4ab5-bb35-b406bff18e5a",
+      "name": "Americano",
+      "sku": "COF-001",
+      "category": "Coffee",
+      "options": "",
+      "price": 95,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 80,
+        "store-mall": 45,
+        "store-campus": 58
+      }
+    },
+    {
+      "id": "00c6bdc6-2563-40b1-8d7a-b6030479ed00",
+      "name": "Spanish Latte",
+      "sku": "COF-002",
+      "category": "Coffee",
+      "options": "",
+      "price": 150,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 60,
+        "store-mall": 36,
+        "store-campus": 42
+      }
+    },
+    {
+      "id": "d4fb1e36-0ad2-4a79-9c46-eb5e92068c74",
+      "name": "Cappuccino",
+      "sku": "COF-003",
+      "category": "Coffee",
+      "options": "",
+      "price": 135,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 54,
+        "store-mall": 30,
+        "store-campus": 38
+      }
+    },
+    {
+      "id": "de81db96-06fa-4d8b-bbe8-85ce8787fe5d",
+      "name": "Matcha Latte",
+      "sku": "TEA-101",
+      "category": "Tea",
+      "options": "",
+      "price": 165,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 38,
+        "store-mall": 24,
+        "store-campus": 34
+      }
+    },
+    {
+      "id": "6b74f003-6e2c-42f1-a1a5-4e078e8bc2b4",
+      "name": "Iced Lemon Tea",
+      "sku": "TEA-102",
+      "category": "Tea",
+      "options": "",
+      "price": 85,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 70,
+        "store-mall": 52,
+        "store-campus": 61
+      }
+    },
+    {
+      "id": "226c85e8-3de4-4873-855b-ff1ccef07d8f",
+      "name": "Croissant",
+      "sku": "BAK-201",
+      "category": "Pastry",
+      "options": "",
+      "price": 120,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 28,
+        "store-mall": 18,
+        "store-campus": 22
+      }
+    },
+    {
+      "id": "7bae5818-bb5b-4004-b6f9-00ee0f0e3cab",
+      "name": "Blueberry Muffin",
+      "sku": "BAK-202",
+      "category": "Pastry",
+      "options": "",
+      "price": 90,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 34,
+        "store-mall": 20,
+        "store-campus": 26
+      }
+    },
+    {
+      "id": "47f1241b-2ef5-47af-a2dc-2d03df845a99",
+      "name": "Chicken Pesto Sandwich",
+      "sku": "FD-301",
+      "category": "Meals",
+      "options": "",
+      "price": 210,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 24,
+        "store-mall": 16,
+        "store-campus": 18
+      }
+    },
+    {
+      "id": "79c8acc8-1add-43ae-b3b4-a3381741ca17",
+      "name": "Tuna Melt",
+      "sku": "FD-302",
+      "category": "Meals",
+      "options": "",
+      "price": 185,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 22,
+        "store-mall": 14,
+        "store-campus": 16
+      }
+    },
+    {
+      "id": "2aea1701-6fc1-4b93-a3d3-5a00e6de5aa3",
+      "name": "Reusable Tumbler",
+      "sku": "MR-401",
+      "category": "Merch",
+      "options": "",
+      "price": 390,
+      "cost": 0,
+      "stockByStore": {
+        "store-main": 12,
+        "store-mall": 8,
+        "store-campus": 10
+      }
+    }
+  ],
+  "sales": [],
+  "customers": [],
+  "employees": [
+    {
+      "id": "employee-admin",
+      "name": "Admin Owner",
+      "role": "admin",
+      "pin": "0000",
+      "status": "Active",
+      "storeId": "store-main"
+    },
+    {
+      "id": "employee-cashier",
+      "name": "Ava Smith",
+      "role": "cashier",
+      "pin": "1234",
+      "status": "Active"
+    },
+    {
+      "id": "employee-manager",
+      "name": "Manager",
+      "role": "manager",
+      "pin": "9999",
+      "status": "Active"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-none",
+      "name": "No discount",
+      "percent": 0,
+      "active": true
+    },
+    {
+      "id": "promo-staff",
+      "name": "Staff meal",
+      "percent": 5,
+      "active": true
+    },
+    {
+      "id": "promo-happy-hour",
+      "name": "Happy hour",
+      "percent": 10,
+      "active": true
+    },
+    {
+      "id": "promo-senior-pwd",
+      "name": "Senior / PWD",
+      "percent": 20,
+      "active": true
+    }
+  ],
+  "appSettings": {
+    "taxEnabled": false,
+    "taxRate": 12,
+    "serviceFeeEnabled": true,
+    "serviceFeeRate": 5,
+    "receiptHeader": "",
+    "receiptFooter": "Thank you.",
+    "printerName": "Generic Bluetooth Thermal Printer",
+    "printerPaperWidth": "58",
+    "printerConnected": false,
+    "autoPrintEnabled": true
+  },
+  "recentProductIds": [
+    "d4fb1e36-0ad2-4a79-9c46-eb5e92068c74",
+    "00c6bdc6-2563-40b1-8d7a-b6030479ed00",
+    "fce662ca-800c-4ab5-bb35-b406bff18e5a"
+  ],
+  "activeStoreId": "store-main",
+  "selectedStockStoreId": "store-main",
+  "updatedAt": "2026-07-02T14:07:19.752Z"
+}

@@ -1,0 +1,27 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.realtybytes.pos"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.realtybytes.pos"
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+tasks.register("syncWebAssets", Copy) {
+    from("../..") {
+        include "index.html"
+        include "styles.css"
+        include "app.js"
+    }
+    into("src/main/assets/pos")
+}
+
+preBuild.dependsOn("syncWebAssets")
